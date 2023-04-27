@@ -44,4 +44,5 @@ class BlankFragment1 : Fragment() {
         super.onDestroy()
         EventBus.getDefault().unregister(this)
     }
+
 }
